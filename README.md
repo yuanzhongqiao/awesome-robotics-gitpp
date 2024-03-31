@@ -1,160 +1,138 @@
-# Awesome Robotics
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-Awesome links, software libraries, [papers](papers.md), and other [intersting links](interesting.md) that are useful for robots.
-
-
-Relevant Awesome Lists
-----------------------
-
-- [Kiloreaux/awesome-robotics](https://github.com/Kiloreux/awesome-robotics) - Learn about Robotics.
-- [Robotics Libraries](https://github.com/jslee02/awesome-robotics-libraries) - Another list of awesome robotics libraries.
-- [Robotics Coursework](https://github.com/mithi/robotics-coursework) - A list of robotics courses you can take online
-- [Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
-- [Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - Neural networks.
-    - [TensorFlow](https://github.com/jtoy/awesome-tensorflow) - Library for machine intelligence.
-    - [Papers](https://github.com/terryum/awesome-deep-learning-papers) - The most cited deep learning papers.
-- [Deep Vision](https://github.com/kjw0612/awesome-deep-vision) - Deep learning for computer vision
-- [Data Visualization](https://github.com/fasouto/awesome-dataviz) - See what your robot is doing with any programming language.
-- [paperswithcode state of the art](https://paperswithcode.com/sota) - List of state of the art results on various machine learning benchmarks.
-
-Simulators
-----------
-
-- [CoppeliaSim](coppeliarobotics.com/index.html) - Create, Simulate, any Robot. (formerly named V-REP)
-- [Microsoft Airsim](https://github.com/Microsoft/AirSim) - Open source simulator based on Unreal Engine for autonomous vehicles from Microsoft AI & Research.
-- [Bullet Physics SDK](https://github.com/bulletphysics/bullet3) - Real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc. Also see [pybullet](https://pybullet.org).
-
-Visualization, Video, Display, and Rendering
------------------------
-
- - [Pangolin](https://github.com/stevenlovegrove/Pangolin) - A lightweight portable rapid development library for managing OpenGL display / interaction and abstracting video input.
-- [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - Quickly plot and re-plot data on the fly! Includes optional ROS integration.
-- [Data Visualization](https://github.com/fasouto/awesome-dataviz) - A list of awesome data visualization tools.
-
-Machine Learning
-----------------
-
-### TensorFlow related
-
-- [Keras](https://keras.io) - Deep Learning library for Python. Convnets, recurrent neural networks, and more. Runs on TensorFlow or Theano.
-- [keras-contrib](https://github.com/farizrahman4u/keras-contrib) - Keras community contributions.
-- [TensorFlow](tensorflow.org) - An open-source software library for Machine Intelligence.
-- [recurrentshop](https://github.com/datalogai/recurrentshop) - Framework for building complex recurrent neural networks with Keras.
-- [tensorpack](https://github.com/ppwwyyxx/tensorpack) - Neural Network Toolbox on TensorFlow.
-- [tensorlayer](https://github.com/zsdonghao/tensorlayer) - Deep Learning and Reinforcement Learning Library for Researchers and Engineers.
-- [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) - TensorFlow Tutorial and Examples for beginners.
-- [hyperas](https://github.com/maxpumperla/hyperas) - Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization.
-- [elephas](https://github.com/maxpumperla/elephas) - Distributed Deep learning with Keras & Spark
-- [PipelineAI](https://github.com/fluxcapacitor/pipeline) - End-to-End ML and AI Platform for Real-time Spark and Tensorflow Data Pipelines.
-- [sonnet](https://github.com/deepmind/sonnet) - Google Deepmind APIs on top of TensorFlow.
-- [visipedia/tfrecords](https://github.com/visipedia/tfrecords) - Demonstrates the use of TensorFlow's TFRecord data format.
-
-#### Image Segmentation
-
-- [tf-image-segmentation](https://github.com/warmspringwinds/tf-image-segmentation) - Image Segmentation framework based on Tensorflow and TF-Slim library.
-- [Keras-FCN](https://github.com/aurora95/Keras-FCN)
-
-
-Logging and Messaging
----------------------
-
-- [spdlog](https://github.com/gabime/spdlog) - Super fast C++ logging library.
-- [lcm](https://github.com/lcm-proj/lcm) - Lightweight Communications and Marshalling, message passing and data marshalling for real-time systems where high-bandwidth and low latency are critical.
-
-Tracking
---------
-
-- [simtrack](https://github.com/karlpauwels/simtrack) - A simulation-based framework for tracking.
-- [ar_track_alvar](https://github.com/sniekum/ar_track_alvar) - AR tag tracking library for ROS.
-- [artoolkit5](https://github.com/artoolkit/artoolkit5) - Augmented Reality Toolkit, which has excellent AR tag tracking software.
-
-Robot Operating System (ROS)
-----------------------------
-
-- [ROS](ros.org) - Main ROS website.
-- [ros2/design](https://github.com/ros2/design) - Design documentation for ROS 2.0 effort.
-
-
-Kinematics, Dynamics, Constrained Optimization
-----------------------------------------------
-
-- [jrl-umi3218/Tasks](https://github.com/jrl-umi3218/Tasks) - Tasks is library for real time control of robots and kinematic trees using constrained optimization.
-- [jrl-umi3218/RBDyn](https://github.com/jrl-umi3218/RBDyn) - RBDyn provides a set of classes and functions to model the dynamics of rigid body systems.
-- [ceres-solver](https://github.com/ceres-solver/ceres-solver) - Solve Non-linear Least Squares problems with bounds constraints and general unconstrained optimization problems. Used in production at Google since 2010.
-- [orocos_kinematics_dynamics](https://github.com/orocos/orocos_kinematics_dynamics) - Orocos Kinematics and Dynamics C++ library.
-- [flexible-collsion-library](https://github.com/flexible-collision-library/fcl) - Performs three types of proximity queries on a pair of geometric models composed of triangles, integrated with ROS. 
-- [robot_calibration](https://github.com/mikeferguson/robot_calibration) - generic robot kinematics calibration for ROS
-- [ruckig](https://github.com/pantor/ruckig) - Real-time, time-optimal and jerk-constrained online trajectory generation.
-
-Calibration
------------
-
-- [handeye-calib-camodocal](https://github.com/jhu-lcsr/handeye_calib_camodocal) - generic robot hand-eye calibration.
-- [robot_calibration](https://github.com/mikeferguson/robot_calibration) - generic robot kinematics calibration for ROS
-- [kalibr](https://github.com/ethz-asl/kalibr) - camera and imu calibration for ROS
-
-Reinforcement Learning
-----------------------
-
-- ["Good Robot!": Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer](https://github.com/jhu-lcsr/good_robot) - A real robot completes multi-step tasks after <20k simulated actions. [Good Robot on ArXiV](https://arxiv.org/abs/1909.11730) (disclaimer: @ahundt is first author)
-- [TensorForce](https://github.com/reinforceio/tensorforce) - A TensorFlow library for applied reinforcement learning
-- [gqcnn](https://github.com/BerkeleyAutomation/gqcnn) -  [Grasp Quality Convolutional Neural Networks (GQ-CNNs)](https://berkeleyautomation.github.io/gqcnn/info/info.html) for grasp planning using training datasets from the [Dexterity Network (Dex-Net)](https://berkeleyautomation.github.io/dex-net)
-- [Guided Policy Search](https://github.com/cbfinn/gps) - Guided policy search (gps) algorithm and LQG-based trajectory optimization, meant to help others understand, reuse, and build upon existing work. 
-
-Drivers for Sensors, Devices and Arms
--------------------------------------
-
-- [libfreenect2](https://github.com/OpenKinect/libfreenect2) - Open source drivers for the Kinect for Windows v2 and Xbox One devices.
-- [iai_kinect2](https://github.com/code-iai/iai_kinect2) - Tools for using the Kinect One (Kinect v2) in ROS.
-- [grl](https://github.com/ahundt/grl) - Generic Robotics Library: Cross platform drivers for Kuka iiwa and Atracsys FusionTrack with optional v-rep and ros drivers. Also has cross platform Hand Eye Calibration and Tool Tip Calibration.
-
-Datasets
---------
-
-- [CoSTAR Block Stacking Dataset](https://sites.google.com/site/costardataset) - Robot stacking colored children's blocks (disclaimer: created by @ahundt)
-- [shapestacks](http://shapestacks.robots.ox.ac.uk/#paper) - simulated stacks of colored children's objects
-- [pascal voc 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) - The classic reference image segmentation dataset.
-- [openimages](https://github.com/openimages/dataset/) - Huge imagenet style dataset by Google.
-- [COCO](mscoco.org) - Objects with segmentation, keypoints, and links to many other external datasets.
-- [cocostuff](https://github.com/nightrome/cocostuff) - COCO additional full scene segmentation including backgrounds and annotator.
-- [Google Brain Robot Data](https://sites.google.com/site/brainrobotdata/home) - Robotics datasets including grasping, pushing, and pouring.
-- [Materials in Context](http://opensurfaces.cs.cornell.edu/publications/minc/) - Materials Dataset with real world images in 23 categories.
-- [Dex-Net 2.0](http://bair.berkeley.edu/blog/2017/06/27/dexnet-2.0/) - 6.7 million pairs of synthetic point clouds and grasps with robustness labels.
-
-#### Dataset Collection
-- [LabelFusion](labelfusion.csail.mit.edu) - "A Pipeline for Generating Ground Truth Labels for Real RGBD Data of Cluttered Scenes" [code](https://github.com/RobotLocomotion/LabelFusion)
-- [cocostuff](https://github.com/nightrome/cocostuff) - COCO additional full scene segmentation including backgrounds and annotator.
-
-Linear Algebra & Geometry
--------------------------
-
-- [Eigen](http://eigen.tuxfamily.org) - Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
-- [Boost.QVM](https://github.com/boostorg/qvm) - Quaternions, Vectors, Matrices library for Boost.
-- [Boost.Geometry](https://github.com/boostorg/geometry/) - Boost.Geometry contains instantiable geometry classes, but library users can also use their own.
-- [SpaceVecAlg](https://github.com/jrl-umi3218/SpaceVecAlg) - Implementation of spatial vector algebra for 3D geometry with the Eigen3 linear algebra library.
-- [Sophus](https://github.com/strasdat/Sophus) - C++ implementation of Lie Groups which are for 3D Geometry, using Eigen.
-
-
-Point Clouds
-------------
-
-- [libpointmatcher](https://github.com/ethz-asl/libpointmatcher) - An "Iterative Closest Point" library robotics and 2-D/3-D mapping.
-- [Point Cloud Library (pcl)](https://github.com/PointCloudLibrary/pcl) - The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing.
-
-
-
-Simultaneous Localization and Mapping (SLAM)
---------------------------------------------
-
-- [ElasticFusion](https://github.com/mp3guy/ElasticFusion) - Real-time dense visual SLAM system.
-- [co-fusion](https://github.com/martinruenz/co-fusion) - Real-time Segmentation, Tracking and Fusion of Multiple Objects. Extends ElasticFusion.
-- [Google Cartographer](https://github.com/googlecartographer/cartographer/) - Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
-- [OctoMap](https://github.com/OctoMap/octomap) - An Efficient Probabilistic 3D Mapping Framework Based on Octrees. Contains the main OctoMap library, the viewer octovis, and dynamicEDT3D.
-- [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2) - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities.
-
-
-# License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的机器人</font></font></h1><a id="user-content-awesome-robotics" class="anchor" aria-label="永久链接：很棒的机器人" href="#awesome-robotics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/50cf39121274b3db22bf1bd72cbe25af9078e037441cb5b5bdef1cc9dc5eb2f7/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="惊人的" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的链接、软件库、</font></font><a href="/ahundt/awesome-robotics/blob/master/papers.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他</font><font style="vertical-align: inherit;">对机器人有用的有趣</font></font><a href="/ahundt/awesome-robotics/blob/master/interesting.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关精彩列表</font></font></h2><a id="user-content-relevant-awesome-lists" class="anchor" aria-label="永久链接：相关精彩列表" href="#relevant-awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/Kiloreux/awesome-robotics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kiloreaux/awesome-robotics</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 了解机器人技术。</font></font></li>
+<li><a href="https://github.com/jslee02/awesome-robotics-libraries"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 另一个很棒的机器人库列表。</font></font></li>
+<li><a href="https://github.com/mithi/robotics-coursework"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人课程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 您可以在线学习的机器人课程列表</font></font></li>
+<li><a href="https://github.com/jbhuang0604/awesome-computer-vision"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算机视觉</font></font></a></li>
+<li><a href="https://github.com/ChristosChristofidis/awesome-deep-learning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度学习</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 神经网络。
+</font></font><ul dir="auto">
+<li><a href="https://github.com/jtoy/awesome-tensorflow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TensorFlow</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 机器智能库。</font></font></li>
+<li><a href="https://github.com/terryum/awesome-deep-learning-papers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 被引用最多的深度学习论文。</font></font></li>
+</ul>
+</li>
+<li><a href="https://github.com/kjw0612/awesome-deep-vision"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Deep Vision</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 计算机视觉深度学习</font></font></li>
+<li><a href="https://github.com/fasouto/awesome-dataviz"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据可视化</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 查看您的机器人使用任何编程语言正在做什么。</font></font></li>
+<li><a href="https://paperswithcode.com/sota" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">paperwithcode state of the art</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 各种机器学习基准的最新结果列表。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模拟器</font></font></h2><a id="user-content-simulators" class="anchor" aria-label="永久链接：模拟器" href="#simulators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/ahundt/awesome-robotics/blob/master/coppeliarobotics.com/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CoppeliaSim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 创建、模拟任何机器人。 （以前称为 V-REP）</font></font></li>
+<li><a href="https://github.com/Microsoft/AirSim"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Microsoft Airsim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 基于虚幻引擎的开源模拟器，适用于 Microsoft AI &amp; Research 的自动驾驶汽车。</font></font></li>
+<li><a href="https://github.com/bulletphysics/bullet3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bullet 物理 SDK</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 适用于 VR、游戏、视觉效果、机器人、机器学习等的实时碰撞检测和多物理模拟。另请参阅</font></font><a href="https://pybullet.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pybullet</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可视化、视频、显示和渲染</font></font></h2><a id="user-content-visualization-video-display-and-rendering" class="anchor" aria-label="永久链接：可视化、视频、显示和渲染" href="#visualization-video-display-and-rendering"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/stevenlovegrove/Pangolin"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pangolin</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 一个轻量级便携式快速开发库，用于管理 OpenGL 显示/交互和抽象视频输入。</font></font></li>
+<li><a href="https://github.com/facontidavide/PlotJuggler"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PlotJuggler</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 即时快速绘制和重新绘制数据！包括可选的 ROS 集成。</font></font></li>
+<li><a href="https://github.com/fasouto/awesome-dataviz"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据可视化</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 一系列很棒的数据可视化工具。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器学习</font></font></h2><a id="user-content-machine-learning" class="anchor" aria-label="永久链接：机器学习" href="#machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TensorFlow相关</font></font></h3><a id="user-content-tensorflow-related" class="anchor" aria-label="永久链接：TensorFlow 相关" href="#tensorflow-related"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://keras.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Keras</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Python 深度学习库。卷积网络、循环神经网络等等。在 TensorFlow 或 Theano 上运行。</font></font></li>
+<li><a href="https://github.com/farizrahman4u/keras-contrib"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">keras-contrib</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Keras 社区贡献。</font></font></li>
+<li><a href="/ahundt/awesome-robotics/blob/master/tensorflow.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TensorFlow</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 机器智能的开源软件库。</font></font></li>
+<li><a href="https://github.com/datalogai/recurrentshop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">recurrentshop</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Keras 构建复杂的循环神经网络的框架。</font></font></li>
+<li><a href="https://github.com/ppwwyyxx/tensorpack"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tensorpack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - TensorFlow 上的神经网络工具箱。</font></font></li>
+<li><a href="https://github.com/zsdonghao/tensorlayer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tensorlayer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 为研究人员和工程师提供的深度学习和强化学习库。</font></font></li>
+<li><a href="https://github.com/aymericdamien/TensorFlow-Examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TensorFlow-Examples</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 面向初学者的 TensorFlow 教程和示例。</font></font></li>
+<li><a href="https://github.com/maxpumperla/hyperas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hyperas</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Keras + Hyperopt：一个非常简单的包装器，用于方便的超参数优化。</font></font></li>
+<li><a href="https://github.com/maxpumperla/elephas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">elephas</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Keras 和 Spark 进行分布式深度学习</font></font></li>
+<li><a href="https://github.com/fluxcapacitor/pipeline"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PipelineAI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于实时 Spark 和 Tensorflow 数据管道的端到端 ML 和 AI 平台。</font></font></li>
+<li><a href="https://github.com/deepmind/sonnet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sonnet</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - TensorFlow 之上的 Google Deepmind API.</font></font></li>
+<li><a href="https://github.com/visipedia/tfrecords"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">visipedia/tfrecords</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 演示 TensorFlow 的 TFRecord 数据格式的使用。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图像分割</font></font></h4><a id="user-content-image-segmentation" class="anchor" aria-label="永久链接：图像分割" href="#image-segmentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/warmspringwinds/tf-image-segmentation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tf-image-segmentation</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 基于 Tensorflow 和 TF-Slim 库的图像分割框架。</font></font></li>
+<li><a href="https://github.com/aurora95/Keras-FCN"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Keras-FCN</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日志记录和消息传递</font></font></h2><a id="user-content-logging-and-messaging" class="anchor" aria-label="永久链接：日志记录和消息传递" href="#logging-and-messaging"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/gabime/spdlog"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">spdlog</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 超快速 C++ 日志库。</font></font></li>
+<li><a href="https://github.com/lcm-proj/lcm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lcm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 轻量级通信和编组、消息传递和数据编组，适用于高带宽和低延迟至关重要的实时系统。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">追踪</font></font></h2><a id="user-content-tracking" class="anchor" aria-label="永久链接：跟踪" href="#tracking"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/karlpauwels/simtrack"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">simtrack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 基于模拟的跟踪框架。</font></font></li>
+<li><a href="https://github.com/sniekum/ar_track_alvar"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ar_track_alvar</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ROS 的 AR 标签跟踪库。</font></font></li>
+<li><a href="https://github.com/artoolkit/artoolkit5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">artoolkit5</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 增强现实工具包，具有出色的 AR 标签跟踪软件。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人操作系统（ROS）</font></font></h2><a id="user-content-robot-operating-system-ros" class="anchor" aria-label="永久链接：机器人操作系统（ROS）" href="#robot-operating-system-ros"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/ahundt/awesome-robotics/blob/master/ros.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 主要 ROS 网站。</font></font></li>
+<li><a href="https://github.com/ros2/design"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ros2/design</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ROS 2.0 工作的设计文档。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运动学、动力学、约束优化</font></font></h2><a id="user-content-kinematics-dynamics-constrained-optimization" class="anchor" aria-label="永久链接：运动学、动力学、约束优化" href="#kinematics-dynamics-constrained-optimization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/jrl-umi3218/Tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jrl-umi3218/Tasks</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Tasks 是使用约束优化实时控制机器人和运动树的库。</font></font></li>
+<li><a href="https://github.com/jrl-umi3218/RBDyn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jrl-umi3218/RBDyn</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - RBDyn 提供了一组类和函数来对刚体系统的动力学进行建模。</font></font></li>
+<li><a href="https://github.com/ceres-solver/ceres-solver"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ceres-solver</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 解决具有边界约束的非线性最小二乘问题和一般无约束优化问题。自 2010 年起在 Google 的生产中使用。</font></font></li>
+<li><a href="https://github.com/orocos/orocos_kinematics_dynamics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">orocos_kinematics_dynamics</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Orocos 运动学和动力学 C++ 库。</font></font></li>
+<li><a href="https://github.com/flexible-collision-library/fcl"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flex-collsion-library</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 对一对由三角形组成的几何模型执行三种类型的邻近查询，与 ROS 集成。</font></font></li>
+<li><a href="https://github.com/mikeferguson/robot_calibration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">robots_calibration</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ROS 的通用机器人运动学校准</font></font></li>
+<li><a href="https://github.com/pantor/ruckig"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ruckig</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 实时、时间最优且加加速度约束的在线轨迹生成。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">校准</font></font></h2><a id="user-content-calibration" class="anchor" aria-label="永久链接：校准" href="#calibration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/jhu-lcsr/handeye_calib_camodocal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">handeye-calib-camodocal</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 通用机器人手眼校准。</font></font></li>
+<li><a href="https://github.com/mikeferguson/robot_calibration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">robots_calibration</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ROS 的通用机器人运动学校准</font></font></li>
+<li><a href="https://github.com/ethz-asl/kalibr"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">kalibr</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ROS 的相机和 IMU 校准</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强化学习</font></font></h2><a id="user-content-reinforcement-learning" class="anchor" aria-label="永久链接：强化学习" href="#reinforcement-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/jhu-lcsr/good_robot"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“好机器人！”：通过模拟到真实迁移的多步骤视觉任务的高效强化学习</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 真实的机器人在 &lt;20k 模拟动作后完成多步骤任务。</font></font><a href="https://arxiv.org/abs/1909.11730" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArXiV 上的 Good Robot</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（免责声明：@ahundt 是第一作者）</font></font></li>
+<li><a href="https://github.com/reinforceio/tensorforce"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TensorForce</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于应用强化学习的 TensorFlow 库</font></font></li>
+<li><a href="https://github.com/BerkeleyAutomation/gqcnn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gqcnn</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -  </font></font><a href="https://berkeleyautomation.github.io/gqcnn/info/info.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掌握质量卷积神经网络（GQ-CNN），</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用来自</font></font><a href="https://berkeleyautomation.github.io/dex-net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">敏捷网络（Dex-Net）的训练数据集进行掌握规划</font></font></a></li>
+<li><a href="https://github.com/cbfinn/gps"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引导策略搜索</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 引导策略搜索 (gps) 算法和基于 LQG 的轨迹优化，旨在帮助其他人理解、重用和构建现有工作。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传感器、设备和手臂的驱动程序</font></font></h2><a id="user-content-drivers-for-sensors-devices-and-arms" class="anchor" aria-label="永久链接：传感器、设备和手臂的驱动程序" href="#drivers-for-sensors-devices-and-arms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/OpenKinect/libfreenect2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libfreenect2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 适用于 Windows v2 和 Xbox One 设备的 Kinect 开源驱动程序。</font></font></li>
+<li><a href="https://github.com/code-iai/iai_kinect2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iai_kinect2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在 ROS 中使用 Kinect One (Kinect v2) 的工具.</font></font></li>
+<li><a href="https://github.com/ahundt/grl"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">grl</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 通用机器人库：Kuka iiwa 和&ZeroWidthSpace;&ZeroWidthSpace; Atracsys FusionTrack 的跨平台驱动程序，带有可选的 v-rep 和 ros 驱动程序。还具有跨平台手眼校准和工具提示校准。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据集</font></font></h2><a id="user-content-datasets" class="anchor" aria-label="永久链接：数据集" href="#datasets"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://sites.google.com/site/costardataset" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CoSTAR 积木堆叠数据集</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 机器人堆叠彩色儿童积木（免责声明：由 @ahundt 创建）</font></font></li>
+<li><a href="http://shapestacks.robots.ox.ac.uk/#paper" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">shapestacks</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 彩色儿童物体的模拟堆叠</font></font></li>
+<li><a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pascal voc 2012</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 经典的参考图像分割数据集。</font></font></li>
+<li><a href="https://github.com/openimages/dataset/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">openimages</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Google 提供的巨大 imagenet 风格数据集。</font></font></li>
+<li><a href="/ahundt/awesome-robotics/blob/master/mscoco.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COCO</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 具有分段、关键点和许多其他外部数据集链接的对象。</font></font></li>
+<li><a href="https://github.com/nightrome/cocostuff"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cocostuff</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -COCO 额外的全场景分割，包括背景和注释器。</font></font></li>
+<li><a href="https://sites.google.com/site/brainrobotdata/home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Brain 机器人数据</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 机器人数据集，包括抓取、推动和倾倒。</font></font></li>
+<li><a href="http://opensurfaces.cs.cornell.edu/publications/minc/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Materials in Context</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 包含 23 个类别的真实世界图像的材料数据集。</font></font></li>
+<li><a href="http://bair.berkeley.edu/blog/2017/06/27/dexnet-2.0/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dex-Net 2.0</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 670 万对合成点云和带有鲁棒性标签的抓点。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据集收集</font></font></h4><a id="user-content-dataset-collection" class="anchor" aria-label="永久链接：数据集收集" href="#dataset-collection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/ahundt/awesome-robotics/blob/master/labelfusion.csail.mit.edu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LabelFusion</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - “为杂乱场景的真实 RGBD 数据生成地面实况标签的管道”</font></font><a href="https://github.com/RobotLocomotion/LabelFusion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码</font></font></a></li>
+<li><a href="https://github.com/nightrome/cocostuff"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cocostuff</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -COCO 额外的全场景分割，包括背景和注释器。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">线性代数与几何</font></font></h2><a id="user-content-linear-algebra--geometry" class="anchor" aria-label="永久链接：线性代数与几何" href="#linear-algebra--geometry"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="http://eigen.tuxfamily.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eigen</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Eigen 是线性代数的 C++ 模板库：矩阵、向量、数值求解器和相关算法。</font></font></li>
+<li><a href="https://github.com/boostorg/qvm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boost.QVM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于 Boost 的四元数、向量、矩阵库。</font></font></li>
+<li><a href="https://github.com/boostorg/geometry/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boost.Geometry</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Boost.Geometry 包含可实例化的几何类，但库用户也可以使用自己的几何类。</font></font></li>
+<li><a href="https://github.com/jrl-umi3218/SpaceVecAlg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpaceVecAlg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Eigen3 线性代数库实现 3D 几何的空间矢量代数。</font></font></li>
+<li><a href="https://github.com/strasdat/Sophus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sophus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Eigen 用于 3D 几何的李群的 C++ 实现。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">点云</font></font></h2><a id="user-content-point-clouds" class="anchor" aria-label="永久链接：点云" href="#point-clouds"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/ethz-asl/libpointmatcher"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libpointmatcher</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 一个“迭代最近点”库机器人和 2-D/3-D 映射。</font></font></li>
+<li><a href="https://github.com/PointCloudLibrary/pcl"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">点云库 (pcl)</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 点云库 (PCL) 是一个独立的、大规模的、开放的项目，用于 2D/3D 图像和点云处理。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同时定位和建图 (SLAM)</font></font></h2><a id="user-content-simultaneous-localization-and-mapping-slam" class="anchor" aria-label="永久链接：同步定位和建图 (SLAM)" href="#simultaneous-localization-and-mapping-slam"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/mp3guy/ElasticFusion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ElasticFusion</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 实时密集视觉 SLAM 系统。</font></font></li>
+<li><a href="https://github.com/martinruenz/co-fusion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">co-fusion</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 多个对象的实时分割、跟踪和融合。扩展 ElasticFusion。</font></font></li>
+<li><a href="https://github.com/googlecartographer/cartographer/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Cartographer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Cartographer 是一个跨多个平台和传感器配置提供 2D 和 3D 实时同步定位和地图绘制 (SLAM) 的系统。</font></font></li>
+<li><a href="https://github.com/OctoMap/octomap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoMap</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 基于八叉树的高效概率 3D 映射框架。包含主 OctoMap 库、查看器 octovis 和dynamicEDT3D。</font></font></li>
+<li><a href="https://github.com/raulmur/ORB_SLAM2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ORB_SLAM2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于单目、立体和 RGB-D 相机的实时 SLAM，具有循环检测和重新定位功能。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h1><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img alt="知识共享许可" src="https://camo.githubusercontent.com/ae0ee1333cd0acfb61ddde585b565eab3fd7f21ac4e299f68402ea611f8faf68/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f342e302f38387833312e706e67" data-canonical-src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本作品根据</font></font><a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Creative Commons Attribution 4.0 International License</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得许可。</font></font></p>
+</article></div>
